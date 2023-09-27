@@ -1,0 +1,362 @@
+.mainStackServices {
+  background-color: #e2f6fb;
+}
+
+.loanServicesMainBox {
+  padding-top: 64px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.upiServicesGrid {
+  padding-left: 150px;
+}
+.upiServicesMainGrid {
+  padding-top: 40px;
+}
+.devicesMainBox {
+  margin-left: 32px;
+  margin-right: 32px;
+  padding-top: 40px;
+}
+.devicesMainGrid {
+  padding-top: 40px;
+}
+.paymentServiceSecondGrid {
+  padding: 20px 20px 20px 20px;
+  display: flex !important;
+  justify-content: space-evenly !important;
+  border-radius: 10px;
+  background-color: #e2f6fb;
+}
+.paymentServiceMainBox {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex !important;
+  justify-content: space-around;
+}
+.paymentServiceSecondGridCard{
+  margin: 15px !important;
+}
+
+.allCardBackGroundColor {
+  background-color: #e2f6fb !important;
+}
+
+.bankingServicesBox {
+  padding-top: 64px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.bankingServicesIndividualCardBox {
+  margin: 10px;
+}
+.bankingServicesIndividualCard {
+  padding: 8px;
+  border-radius: 16px;
+  background-color: #e2f6fb !important;
+  height: 362px;
+}
+.microATMGrid {
+  border-radius: 10px;
+  background-color: #e2f6fb;
+  padding-top: 20px;
+}
+.posGrid {
+  border-radius: 10px;
+  background-color: #e2f6fb;
+  padding-top: 20px;
+}
+.soundBoxGrid{
+  border-radius: 10px;
+  background-color: #e2f6fb;
+
+}
+.upiServicesBox {
+  margin: 32px;
+}
+.upiServicesCardBox1 {
+  display: flex;
+  justify-content: right;
+}
+.upiServicesCardBox2 {
+  display: flex;
+  justify-content: left;
+}
+.upiServicesCard {
+  background-color: #e2f6fb !important;
+  height: 323px;
+}
+
+.microATMTypography{
+  margin: 10px !important;
+}
+.posTypography{
+  margin: 10px !important;
+padding-right: 8px;
+}
+.soundBoxTypography{
+  margin: 10px !important;
+padding-right: 8px;
+}
+
+@media (max-width: 568px) {
+  .bankingServicesBox {
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-top: 20px;
+  }
+  .bankingServicesIndividualCard {
+    padding: 4px;
+    height: 323px;
+  }
+  .mainStackServices {
+    background-color: #63cde526;
+  }
+  .ourServicesImage {
+    width: 100vw;
+  }
+  .paymentServiceMainBox {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap;
+    align-items: center !important;
+  }
+  .paymentServiceSecondGrid {
+    padding: 30px 30px 30px 30px;
+    display: flex !important;
+    border-radius: 10px !important;
+    background-color: #e2f6fb !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+  }
+  .paymentServiceButton {
+    display: none;
+    /* justify-content:space-around; */
+  }
+
+  .bankingServicesMainGrid {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 40px;
+  }
+  .bankingServicesMainBox {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 40px;
+  }
+  .loanServicesMainGrid {
+    display: flex !important;
+
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+  }
+  .loanServicesMainBox {
+    padding-top: 64px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .upiServicesGrid {
+    padding-left: 0px;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+  }
+  .upiServicesBox {
+    margin: 18px;
+  }
+  .microATMGrid {
+    border-radius: 10px;
+    background-color: #e2f6fb;
+    padding-top: 10px;
+   
+  }
+  .microATMPic{
+    width: 74vw;
+    
+  }
+  .soundBoxPic{
+    width: 71vw;
+    padding-right: 20px;
+  }
+  .microATMTypography{
+    margin: 10px !important;
+  }
+  .posGrid {
+    border-radius: 10px;
+    background-color: #e2f6fb;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+  }
+  .posPicGrid{
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+  }
+.posTypography{
+  margin: 10px !important;
+padding-right: 8px;
+}
+
+  .soundBoxGrid{
+    border-radius: 10px;
+    background-color: #e2f6fb;
+  
+  }
+  .soundBoxPicGrid{
+    padding-top: 0px !important;
+    padding-left: 9px !important;
+  }
+.soundBoxTypography{
+  margin: 10px !important;
+padding-right: 8px;
+}
+
+  .upiServicesCardBox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .upiServicesCardBox2 {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+  }
+  .devicesMainBox {
+    margin-left: 32px;
+    margin-right: 32px;
+   
+  }
+ 
+}
+
+@media (min-width: 1920px) and (max-width: 2560px)  {
+  .ourServicesImage {
+    width: 80vh;
+  }
+  .paymentServiceSecondGridCard{
+    margin: 15px !important;
+    min-width: 460px;
+  }
+  .paymentServiceSecondGridCardsTypography{
+    font-size: 1.5rem !important;
+  }
+  .paymentServiceSecondGridCardsDMTPic{
+    min-width: 6vh;
+  }
+  .upiServicesCard {
+    background-color: #e2f6fb !important;
+   min-width: 50vh;
+  }
+  .upiServicesCardBox1 {
+    display: flex;
+  
+  }
+  .microATMPic{
+    min-width: 45vh;
+    
+  }
+  .soundBoxPic{
+    min-width: 45vh;
+  }
+  .microATMTypography{
+    margin: 10px !important;
+    font-size: 2.0rem !important;
+  }
+  .posTypography{
+    margin: 10px !important;
+    font-size: 2.0rem !important;
+  }
+  .soundBoxTypography{
+    margin: 10px !important;
+  padding-right: 8px;
+  font-size: 2.0rem !important;
+  }
+  .allMainHeadingTypography{
+    font-size: 4.0rem !important;
+  }
+  .allMainHeadingAboutTypography{
+    font-size: 2.1rem !important;
+  }
+ 
+}
+
+
+
+
+.main {
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  padding: 0px 24px;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  padding: 0px 24px;
+  height: 326px;
+  justify-content: space-between;
+  align-items: center;
+  background: #263238;
+  color: #fff;
+}
+
+.navs {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.leftfooter {
+  display: flex;
+  width: 10%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.sweesh {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sweep {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.stores {
+  display: flex;
+}

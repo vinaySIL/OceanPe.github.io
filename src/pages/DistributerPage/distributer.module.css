@@ -1,0 +1,244 @@
+.mainEntryBox{
+  overflow-x: hidden !important;
+}
+.mainPicGrid {
+  display: flex;
+}
+.mainPicGridFirst {
+  padding-top: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.mainPicBox {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.formMainGrid {
+  display: flex;
+  justify-content: space-around;
+}
+.formMainPic{
+  width: 31vw;
+  height: 46vw;
+}
+.mainFormBox {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+}
+.feilds {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.textfield {
+margin: 5px !important;
+
+}
+.shopAddressField{
+  margin: 5px !important;
+}
+.radioButtonGroup {
+  display: flex;
+}
+
+.submitButtonForm {
+  width: 300px;
+}
+
+.distibuterBenifitsMainBox {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+  padding-top: 20px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-evenly !important;
+  align-content: stretch !important;
+}
+.distibuterBenifitsFirstGrid {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  justify-content: space-around !important;
+}
+
+.allCardBackground {
+  background-color: #e2f6fb !important;
+}
+.distibuterBenifitsAbout {
+  padding-top: 100px;
+  margin: 15px !important;
+}
+.distibuterBenifitsSecondGrid {
+  padding: 30px !important;
+}
+.radioButtonText {
+  padding-top: 10px !important;
+  font-weight: bold !important;
+}
+.retailersFrameMainGrid {
+  padding-top: 100px !important;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2f6fb !important;
+  padding-bottom: 80px !important;
+}
+.retailersFrameMainBox {
+  padding-top: 100px !important;
+}
+.ourPartnersFrameMainBox {
+  padding-top: 100px !important;
+}
+.ourPartnersFrameMainGrid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 568px) {
+  .mainPicBox {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .distibuterHeaderMainPic {
+    width: 100vw;
+  }
+  /* .mainHeadingTypography{
+    margin: 16px;
+  } */
+  .mainPicGridFirst {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+.formMainPic{
+  width: 85vw;
+  height: 100vw;
+}
+  .mainFormBox {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 60px;
+  }
+  .formMainGrid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .feilds {
+    flex-direction: column;
+    justify-content: space-between;
+  padding-top: 0px;
+  }
+  .textfield {
+    margin: 6px !important;
+  }
+  .shopAddressField{
+    margin: -25px !important;
+  }
+  .retailersFrameMainGrid {
+    padding-top: 100px !important;
+    display: flex !important;
+    /* flex-direction: column !important; */
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    background-color: #e2f6fb !important;
+    padding-bottom: 80px !important;
+  }
+  .ourPartnersFrameMainGrid {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    
+  }
+  .distibuterBenifitsAbout {
+    padding-top: 50px;
+  }
+  .distibuterBenifitsFirstGrid {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+  }
+  .distibuterBenifitsMainBox {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+  }
+  .distibuterBenifitsSecondGrid {
+    padding: 0px !important;
+    width: 65vw;
+    height: 100vw;
+  }
+  .allCardBackground {
+    margin: 4px;
+  }
+}
+/* .iframe#webpack-dev-server-client-overlay{display:none!important} */
+
+@media (min-width: 1920px) and (max-width: 2560px)  {
+  .distibuterHeaderMainPic {
+    min-width: 75vh;
+  }
+  .EarnUpToTypography{
+    font-size: 3.5rem !important;
+  }
+  .EarnUpToDiscriptionTypography{
+    font-size: 1.8rem !important;
+  }
+  .calculateIncomeButton{
+    min-width: 30vh !important;
+    min-height: 4vh !important;
+    font-size: 1.5rem !important;
+  }
+  .distibuterBenifitsSecondGrid {
+    padding: 30px !important;
+    min-width: 45vh;
+  }
+  .allCardBackground {
+    background-color: #e2f6fb !important;
+    min-width: 500px;
+    min-height: 300px;
+  }
+  .allImagesSize{
+    min-width: 5vh;
+  }
+  .distributerBenifitsDiscriptionTypography{
+    font-size: 2.0rem !important;
+  }
+  .distributerBenifitsHeadlineTypography{
+    font-size: 4.0rem !important;
+  }
+  .distributerBenifitsHeadlineAboutTypography{
+    font-size: 2.0rem!important;
+  }
+  .ourPartnersPicSize{
+    min-width: 30vh;
+  }
+  .ourPartnerMainHeadlineTypography{
+    font-size: 4.8rem!important;
+  }
+  .retailersAllPicsResize{
+    min-width: 20vh;
+  }
+  .SignUpMainHeadingTypography{
+    font-size: 3.5rem !important;
+  }
+  .SignUpMainHeadingAboutTypography{
+    font-size: 2.2rem !important;
+  }
+  .submitButtonForm {
+    min-width: 30vh !important;
+    min-height: 4vh !important;
+    font-size: 1.5rem !important;
+  }
+  .radioButtonText {
+    padding-top: 10px !important;
+    font-weight: bold !important;
+    font-size: 1.8rem !important;
+  }
+}

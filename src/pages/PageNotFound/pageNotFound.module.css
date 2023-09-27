@@ -1,0 +1,24 @@
+.pnfimage{
+    text-align: center;
+}
+
+
+.pnfimage img{
+    max-width: 50%; 
+}
+
+@media screen and (max-width: 568px){
+    .pnfimage{
+        text-align: center;
+        margin:30vw 0;
+    }
+    .pnfimage img{
+        max-width: 90%; 
+    }
+}
+
+
+/* .main1{
+   
+    max-height: calc(100vh-406px);
+} */

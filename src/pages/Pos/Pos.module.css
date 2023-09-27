@@ -1,0 +1,164 @@
+.content {
+    display: flex;
+    /* margin-bottom: 10vh; */
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+    margin-top: 15vh;
+    width: 50%;
+}
+
+
+.text1 {
+    color: #000;
+
+    /* Bold/32 */
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 7vw;
+}
+
+.text2 {
+    color: var(--nuteral-100, #000);
+
+    /* Medium/16 */
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%;
+    /* 21.6px */
+    margin-left: 7vw;
+}
+
+.text22 {
+    color: var(--nuteral-100, #000);
+
+    /* Medium/16 */
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%;
+    /* 21.6px */
+    margin-left: 7vw;
+}
+.photoimage {
+    width: 50%;
+    margin-top: 10vh;
+}
+
+/* .photoimage img{
+    width: 35vw;
+    height: 90vh;
+} */
+
+
+.topiconimage {
+    position: absolute;
+    top: 100px;
+    right: 60px;
+}
+
+.bottomiconimage {
+    position: absolute;
+    top: 740px;
+    left: 390px;
+}
+
+.photoheader{
+    display: none;
+}
+@media screen
+    and (max-device-width: 568px){
+
+        .content {
+            display: flex;
+            flex-direction: column-reverse;
+            /* margin-bottom: 10vh; */
+        }
+
+        .photoheader{
+            display: block;
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            /* margin: 3vw 0vw 2vw 15vw; */
+            margin: 5vh 0 0 0;
+        }
+
+        .topiconimage {
+           display: none;
+        }
+        
+        .bottomiconimage {
+            display: none;
+
+        }
+
+        .photoimage {
+            width: 70%;
+            text-align: center;
+            margin-top:1vh;
+            margin-left: 17vw;
+            /* margin-top: 10vh; */
+        }
+        
+        .photoimage img{
+            width: 100%;
+            height: 100%;
+        }
+        
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            text-align: start;
+            margin-top: 15vh;
+            width: 90%;
+            margin-bottom: -10vh;
+        }
+        .text1{
+            display: none;
+        }
+     
+        
+        .text2 {
+            color: var(--nuteral-100, #000);
+        
+            /* Medium/16 */
+            font-family: Montserrat;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 135%;
+            /* 21.6px */
+            margin-left: 7vw;
+            width: 100%;
+            margin-top: -10vh;
+           
+        }
+        .text22 {
+            color: var(--nuteral-100, #000);
+        
+            /* Medium/16 */
+            font-family: Montserrat;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 135%;
+            /* 21.6px */
+            margin-left: 7vw;
+            width: 100%;
+            margin-bottom: 15vh;
+            /* margin-top: -10vh; */
+        }
+        
+    }

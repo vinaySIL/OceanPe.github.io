@@ -1,0 +1,481 @@
+
+
+.bigfont{
+    color: var(--nuteral-100, #000);
+text-align: center;
+
+/* Bold/40 */
+font-family: Montserrat;
+font-size: 2.75rem;
+font-style: normal;
+font-weight: 900 !important;
+line-height: normal;
+}
+
+.smallfont{
+    color: var(--nuteral-90, #262626);
+text-align: center;
+
+/* Medium/16 */
+font-family: Montserrat;
+font-size: 1.35rem;
+font-style: normal;
+font-weight: 500;
+line-height: 135%; /* 21.6px */
+}
+
+.mainimg{
+    width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.maincont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background: #E8F7FB;
+}
+
+.aboutus{
+    display: flex;
+    height: 450px;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.aboutcont{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.aboutusimg{
+    width: 400px;
+}
+
+.leftabout{
+    width: 50%;
+}
+
+.maintext{
+    gap: 20px;
+    width: 30%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bigtextabout{
+    color: var(--nuteral-100, #000);
+
+/* Bold/40 */
+font-family: Montserrat;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+}
+
+.smalltextabout{
+    color: var(--nuteral-90, #262626);
+
+/* Medium/16 */
+font-family: Montserrat;
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 500;
+line-height: 135%; /* 1.35rem */
+text-align: left;
+}
+
+.customers{
+    padding: 0 24px;
+    /* width: 100%; */
+    max-width: 100vw;
+    display: flex;
+    height: 239px;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    background: #E8FBFF;
+}
+
+.custbox{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 10%;
+}
+
+.valuetext{
+    color: var(--primary-100, #005E9E);
+
+/* Bold/40 */
+font-family: Montserrat;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.customertext{
+    color: var(--primary-100, #005E9E);
+
+/* Medium/16 */
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 135%; /* 1.35rem */
+}
+
+.rbilogo{
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    gap: 5%;
+}
+
+.mainCommon {
+    display: flex;
+    width: 16%;
+    height: 13vw;
+    padding: 1.5rem 0.625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* flex: 1 0; */
+    border-radius: 1.4375rem;
+    background: #FFF;
+    box-shadow: 0px 7px 17px 0px rgba(0, 0, 0, 0.08);
+}
+
+.descCommon{
+    font-size: 1.3rem;
+}
+
+.mainHeaderOne{
+    display: flex;
+}
+
+.mainService {
+    display: flex;
+    width: 26rem;
+    padding: 1.5rem 0.625rem;
+    flex-direction: column;
+    justify-content: st;
+    
+    align-items: center;
+    gap: 1.125rem;
+    border-radius: 1rem;
+    flex: 30% 1 1;
+    background: #FFF;
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.desc{
+    font-size: 1.3rem;
+}
+
+.distributor{
+    padding: 20px 100px;
+}
+
+.commonlogs{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex: 30% 1 1;
+    gap: 10px;
+}
+
+.rightcontentdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers{
+    width: 53px;
+    height: 53px;
+
+}
+
+.numbermaintext{
+    color: var(--primary-100, #005E9E);
+ text-align: left;
+/* Bold/24 */
+font-family: Montserrat;
+font-size: 1.7rem;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 33.6px */
+}
+
+.numbersubtext{
+    color: var(--nuteral-90, #262626);
+    text-align: left;
+/* Medium/16 */
+font-family: Montserrat;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 500;
+line-height: 135%; /* 21.6px */
+}
+
+.undercards{
+    display: flex;
+    flex-wrap: wrap;
+    height: 360px;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainstext{
+    color: var(--nuteral-80, #434343);
+text-align: center;
+
+/* Bold/40 */
+font-family: Montserrat;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.undertext{
+    color: var(--nuteral-90, #262626);
+text-align: center;
+
+/* Medium/16 */
+font-family: Montserrat;
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 500;
+line-height: 135%; /* 21.6px */
+}
+
+.cardscommmon{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 24px;
+}
+
+.descCommon{
+    font-family: 2rem;
+}
+
+.cardimg{
+    width: 35%;
+    height: 35%;
+}
+
+.abovecard{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    background-image: url(../../images/curvetop.svg);
+    background-repeat: no-repeat;
+    background-repeat-x: repeat;
+    background-size: contain;
+}
+
+.curvetop{
+    z-index: -2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.servicescard{
+    display: flex;
+    /* justify
+    -content: space-around; */
+    padding: 24px 24px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.curvebottom{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 1394px;
+    left: 0px;
+    z-index: -2;
+}
+
+.servicesbig{
+    color: var(--nuteral-100, #000);
+text-align: center;
+
+/* Bold/40 */
+font-family: Montserrat;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.servicessmall{
+    color: var(--nuteral-90, #262626);
+text-align: center;
+
+/* Medium/16 */
+font-family: Montserrat;
+font-size: 1.35rem;
+font-style: normal;
+font-weight: 500;
+line-height: 135%; /* 21.6px */
+width: 59%;
+}
+
+.ourservices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../images/curvebottom.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+@media screen and (min-width: 946px){
+    .curvebottom{
+        top: 1492px;
+    }
+
+    
+}
+
+@media screen and (max-width: 568px){
+    .mainCommon{
+        display: flex;
+        width: 16%;
+        height: 26vw;
+        padding: 1.5rem 0.625rem;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 1rem;
+        flex: 40%;
+        border-radius: 1.4375rem;
+        background: #FFF;
+        box-shadow: 0px 7px 17px 0px rgba(0, 0, 0, 0.08);
+    }
+
+    .servicessmall{
+        font-size: 1.5rem;
+    }
+    .descCommon{
+        font-size: 1.55rem;
+    }
+
+    .desc{
+        font-size: 1.8rem;
+       text-align: start;
+    }
+
+    .smallfont{
+        font-size: 1.8rem;
+    }
+    .cardscommmon{
+        display: flex;
+         gap: 12px;
+        justify-content: space-around;
+        padding: 0 24px;
+        flex-wrap: wrap;
+    }
+
+    .maintext{
+        width: 80%;
+    }
+
+    .mainService{
+        flex: 100%;
+        width: auto;
+    }
+
+    .aboutus{
+        display: flex;
+        height: auto;
+        align-items: center;
+        padding: 0 24px;
+    }
+
+    .aboutcont{
+        display: flex;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+
+    .aboutusimg{
+        width: 75%;
+    }
+    .leftabout{
+        width: auto;
+    }
+    .customers{
+    padding: 20px 24px;
+    width: auto;
+    max-width: 100vw;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    background: #E8FBFF;
+    flex-wrap: wrap;
+    }
+
+    .custbox{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 10%;
+    flex: 30%;
+    }
+
+    .rbilogo{
+        height: auto;
+        gap: 5%;
+        flex-direction: column;
+    }
+    .undercards{
+        display: flex;
+    padding: 15px 0;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: auto;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    }
+    .commonlogs{
+     width: auto;
+    display: flex;
+    flex: 100% 1 1;
+    gap: 10px;
+    justify-content: flex-start;
+    }
+    .distributor{
+        padding: 20px 24px;
+    }
+}

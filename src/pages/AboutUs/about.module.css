@@ -1,0 +1,133 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+.box1{
+ display: flex;
+ /* flex-wrap: wrap; */
+ gap: 5%;
+ margin: 30px 10px;
+ justify-content: center;
+}
+
+.cardpage{
+    margin-bottom: 30px;
+    
+}
+
+.cardimage{
+    background-color: grey !important;
+
+}
+
+
+.text1{
+    color: #000;
+text-align: center;
+
+/* Bold/32 */
+font-family: Montserrat;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 10px;
+}
+
+.text2{
+    color: #000;
+text-align: center;
+
+/* Bold/16 */
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 22.4px */
+margin-bottom: 10px;
+}
+
+.text3{
+    color: #000;
+text-align: center;
+
+/* Medium/16 */
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 135%; /* 21.6px */
+}
+.box2{
+
+        display: flex;
+        /* flex-wrap: wrap; */
+        gap: 5%;
+        margin: 30px 10px;
+
+        justify-content: center;
+    
+}
+
+.text4{
+    color: #000;
+    text-align: center;
+    
+    /* Bold/32 */
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-bottom: 10px;
+}
+
+.text5{
+    color: #000;
+text-align: center;
+
+/* Bold/16 */
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 22.4px */
+}
+
+.box3{
+    width: 30%;
+     height: 5vw;
+    background-color: brown;
+margin: 5vw;
+}
+
+.css-1999db7-MuiCardMedia-root{
+    background-color: grey !important;
+}
+@media screen
+    and (max-device-width: 568px){
+        .box1{
+            display: flex;
+            flex-direction: column;
+            /* flex-wrap: wrap; */
+            gap: 5%;
+            margin: 30px;
+            justify-content: center;
+           }
+
+           .box2{
+            display: flex;
+            flex-direction: column;
+            /* flex-wrap: wrap; */
+            gap: 5%;
+            margin: 30px;
+            justify-content: center;
+           }
+    }
